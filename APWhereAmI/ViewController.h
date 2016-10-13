@@ -23,8 +23,16 @@
 @property (strong, nonatomic) IBOutlet UILabel *labelLongitude;
 
 @property (strong, nonatomic) IBOutlet UILabel *labelAltitude;
+
+@property (strong, nonatomic) IBOutlet UILabel *labelSpeed;
+
+@property (strong, nonatomic) IBOutlet UILabel *labelAddress;
+
 - (IBAction)startDetectingLocationAction:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UIButton *startDetectingLocation;
+
+- (IBAction)mapViewType:(id)sender;
 
 
 
